@@ -559,3 +559,293 @@ ul {
     color: #6d6d6d;
     font-size: 14px;
 }
+
+/* ===========================
+   1200px
+=========================== */
+
+@media (max-width:1200px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .hero-content h1 {
+        font-size: 80px;
+    }
+
+    .about-content h2,
+    .world-header h2,
+    .experience-content h2,
+    .explore-text h2,
+    .lifestyle-content h2,
+    .section-title h2 {
+        font-size: 56px;
+    }
+
+}
+
+
+/* ===========================
+   992px
+=========================== */
+
+@media (max-width:992px) {
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .hero-content h1 {
+        font-size: 64px;
+    }
+
+    .about-container,
+    .experience-wrapper,
+    .lifestyle-wrapper,
+    .explore .container {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .experience-image,
+    .lifestyle-image,
+    .explore-images {
+        width: 100%;
+    }
+
+    .explore-images {
+        position: static;
+        height: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .explore-images img {
+        position: static;
+        width: 50%;
+        height: 400px;
+    }
+
+    .world-list {
+        flex-wrap: wrap;
+    }
+
+    .world-item {
+        flex: 0 0 48%;
+    }
+
+    .property-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .property-card {
+        flex: 0 0 48%;
+    }
+
+    .gallery-item {
+        width: 48%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+    }
+
+}
+
+
+/* ===========================
+   768px
+=========================== */
+
+@media (max-width:768px) {
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
+    .scroll-indicator {
+        margin-top: 30px;
+    }
+
+    .about,
+    .explore,
+    .our-worlds,
+    .experiences,
+    .lifestyle,
+    .gallery,
+    .properties {
+        padding: 90px 0;
+    }
+
+    .about-content h2,
+    .world-header h2,
+    .experience-content h2,
+    .explore-text h2,
+    .lifestyle-content h2,
+    .section-title h2 {
+        font-size: 44px;
+    }
+
+    .about-content p,
+    .explore-text p,
+    .experience-content p,
+    .lifestyle-content p,
+    .section-title p {
+        font-size: 16px;
+    }
+
+    .world-header {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .world-item {
+        flex: 100%;
+    }
+
+    .property-card {
+        flex: 100%;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+
+    .experience-image img,
+    .lifestyle-image img {
+        height: 450px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+
+/* ===========================
+   576px
+=========================== */
+
+@media (max-width:576px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+    .about-content h2,
+    .world-header h2,
+    .experience-content h2,
+    .explore-text h2,
+    .lifestyle-content h2,
+    .section-title h2 {
+        font-size: 34px;
+    }
+
+    .about-content p,
+    .explore-text p,
+    .experience-content p,
+    .lifestyle-content p,
+    .section-title p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .outline-btn {
+        padding: 14px 28px;
+    }
+
+    .world-item img,
+    .property-card img {
+        height: 320px;
+    }
+
+    .experience-image img,
+    .lifestyle-image img {
+        height: 320px;
+    }
+
+    .explore-images {
+        flex-direction: column;
+    }
+
+    .explore-images img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+}
